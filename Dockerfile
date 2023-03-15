@@ -5,6 +5,8 @@ WORKDIR /root/app
 
 COPY main.py /root/app/main.py
 COPY forms.py /root/app/forms.py
+COPY requirements.txt /root/app/requirements.txt
+COPY .gitignore /root/app/.gitignore
 COPY /instance/* root/app/instance/
 COPY /static/* root/app/static/
 COPY /templates/* root/app/templates/
